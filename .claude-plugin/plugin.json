@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "claude-disk-cleanup",
+  "displayName": "Disk Cleanup",
+  "version": "1.0.0",
+  "description": "Windows disk cleanup and space management tool. Analyzes disk usage, safely deletes junk files, and migrates large caches to other drives.",
+  "author": {
+    "name": "Junsen-Lin",
+    "email": "1307646791@qq.com",
+    "url": "https://github.com/Junsen-Lin"
+  },
+  "repository": "https://github.com/Junsen-Lin/claude-disk-cleanup",
+  "license": "MIT",
+  "keywords": ["disk-cleanup", "disk-space", "windows", "cache", "migration", "wsl", "huggingface", "ollama"],
+  "defaultEnabled": true,
+  "skills": "./skills/"
+}
